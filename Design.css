@@ -1,0 +1,241 @@
+body{
+    margin: auto;
+    background-color: ffffff;
+}
+
+/* NAVBAR */
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #0c2933;
+}
+
+li{
+    color: white;
+}
+
+.NamaWebsite{
+    float: left;
+    padding: 15px;
+}
+
+.BtnNavigasi{
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    background-color: #123b4c;
+}
+
+/* CONTENT */
+
+.GambarHeader{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.marginSet{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+
+.marginSet.withLine{
+    border-style: solid;
+    border-left: transparent;
+    border-right: transparent;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+h1{
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+}
+
+/* LAYOUT */
+
+.row{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.crop{
+    width: 12cm;
+    height: auto;
+}
+
+.crop:hover{
+    animation-duration: 3ms;
+    width: 15cm;
+}
+
+/* Bottom Navbar */
+
+.BottomNavbar{
+    display: flex;
+    background-color: #0c2933;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.Logo{
+    width: 30px;
+    text-decoration: none;
+}
+
+
+.Credit{
+    display: flex;
+    background-color: #0c2933;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+/* REGISTER */
+
+.center.addBackground{
+    background-color: rgba(216, 191, 216, 0.74);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.formLayout{
+    margin-top: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0;
+    background-color: rgba(216, 191, 216, 0.534);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.form{
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+.FirstName{
+    /* padding: 10px; */
+    width: 45%;
+    margin-right: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.LastName{
+    /* padding: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+}
+
+.FullBox{
+    /* padding: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 96%;
+    display: inline-block;
+}
+
+label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text],input[type=password]{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+input[type=radio]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.exception{
+    display: inline-block;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.SelectBox{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.buttonSubmit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+
+.buttonSubmit:hover{
+    background-color: thistle;
+    color: black;
+}
+
+.btnCenter{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

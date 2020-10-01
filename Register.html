@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="Design.css">
+</head>
+<body>
+    <ul>
+        <li class="NamaWebsite">
+            Stone Lawn Services
+        </li>
+        <li class="BtnNavigasi">
+            <a href="../Stone Lawn Services/Home.html">
+                Home
+            </a>
+        </li>
+        <li class="BtnNavigasi">
+            <a href="../Stone Lawn Services/Register.html">
+                Register
+            </a>
+        </li>
+    </ul>
+
+    <div>
+        <h1 class="center addBackground">
+            REGISTER
+        </h1>
+    </div>
+
+    <div class="formLayout">
+        <form class="form" action="../Stone Lawn Services/Home.html">
+            <label>
+                Name
+            </label>
+            <input class="FirstName" type="text" placeholder="First Name" required>
+            <input class="LastName" type="text" placeholder="Last Name" required>
+            
+            <label>
+                Email
+            </label>
+            <input class="FullBox"  type="text" placeholder="Email" required>
+            
+            <label>
+                Password
+            </label>
+            <input class="FullBox" type="password" placeholder="Password" required>
+
+            <label>
+                Home Address
+            </label>
+            <input class="FullBox"  type="text" placeholder="Address" required>
+
+            <label>
+                Gender
+            </label>
+            
+            <input type="radio" id="male" name="gender">
+                <label class="exception" for="male">
+                    Male
+                </label>
+            </input>
+            
+            <input type="radio" id="female" name="gender">
+                <label class="exception" for="female">
+                    Female
+                </label>
+            </input>
+            
+            <label>Province</label>
+            <select class="SelectBox" id="areaList">
+                <option value="1">Aceh</option>
+                <option value="2">Bengkulu</option>
+                <option value="3">Kepulauan Riau</option>
+                <option value="4">DKI Jakarta</option>
+            </select>
+            <br>
+            
+            <input type="checkbox" id="agree" required>
+            <label class="exception" for="agree">I agree with the terms and services.</label>
+
+            <div class="btnCenter">
+                <input class="buttonSubmit" type="submit" value="Register">
+            </div>
+            
+
+        </form>
+    </div>
+
+    <div class="BottomNavbar">
+        <div>
+            <a target="_blank" href="https://instagram.com/StoneLawn">
+                <img class="Logo" src="../Stone Lawn Services/Assets/instagram.png" alt="iglogo">
+            </a>
+            <a target="_blank" href="https://twitter.com/StoneLawn">
+                <img class="Logo" src="../Stone Lawn Services/Assets/twitter.png" alt="twitterlogo">
+            </a>
+        </div>
+    </div>
+
+    <div class="Credit">
+        Powered by Bluejack 19-2
+    </div>
+</body>
+</html>
